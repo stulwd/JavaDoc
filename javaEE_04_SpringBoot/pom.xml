@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.0.RELEASE</version>
+    </parent>
+
+    <groupId>com.lwdHouse</groupId>
+    <artifactId>javaEE_04_SpringBoot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>javaEE_04_SpringBoot</name>
+    <url>http://www.example.com</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <spring.version>5.2.3.RELEASE</spring.version>
+        <pebble.version>3.1.2</pebble.version>
+    </properties>
+
+    <dependencies>
+<!--        引入了Spring MVC相关依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+<!--        aop starter-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+<!--        Spring JDBC相关依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+<!--         集成Pebble View -->
+        <dependency>
+            <groupId>io.pebbletemplates</groupId>
+            <artifactId>pebble-spring-boot-starter</artifactId>
+            <version>${pebble.version}</version>
+        </dependency>
+<!--        devtools，热更新插件-->
+<!--            要在intellij中使用热更新功能，需要-->
+<!--            1.添加devtools pom依赖-->
+<!--            2. go in settings(ctrl +alt+s) -> Build,Execution,Deployment -> compiler, check "Build project automatically-->
+<!--            3. press ctrl+shift+a then type "registry" and click on it. Then enable the option "compiler.automake.allow.when.app.running-->
+<!--        除了devtools，还有一款热更新插件叫rebel -->
+<!--            在idea的插件管理界面安装插件 JRebel and XRebel for IntelliJ -->
+<!--            从这里生成一个{GUID}：https://www.guidgen.com/ -->
+<!--            打开jrebel面板，选择Connect to online licensing service -->
+<!--            在Team URL的第一栏输入https://jrebel.qekang.com/{GUID} -->
+<!--            第二栏输入你的邮箱名 -->
+<!--            最后勾选 I agree ... -->
+<!--            点击change licence完成激活 -->
+<!--            打开jrebel面板，点击Work Offline按钮 -->
+<!--            go in settings(ctrl +alt+s) -> Build,Execution,Deployment -> compiler, check "Build project automatically -->
+<!--            press ctrl+shift+a then type "registry" and click on it. Then enable the option "compiler.automake.allow.when.app.running -->
+<!--            运行项目的时候，点击jrebel自己的run 和 debug按钮 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+<!--    Actuator监控依赖，功能类似JMX
+        Actuator会把它能收集到的所有信息都暴露给JMX
+        Actuator还可以通过URL/actuator/挂载一些监控点
+        例如，输入http://localhost:8080/actuator/health，我们可以查看应用程序当前状态
+        {
+            "status": "UP"
+        }
+        Actuator默认把所有访问点暴露给JMX，但处于安全原因，
+        只有health和info会暴露给Web。Actuator提供的所有访问点均在官方文档列出，
+        要暴露更多的访问点给Web，需要在application.yml中加上配置：
+        management:
+          endpoints:
+            web:
+              exposure:
+                include: info, health, beans, env, metrics-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+<!--    open API支持
+        主要作用是描述REST API
+        可以作为文档给开发者阅读，又可以让机器根据这个文档自动生成客户端代码
+        只需要添加这个依赖，然后访问 http://ip:port/swagger-ui.html
+        即可查看REST API文档-->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
+<!--    ActiveMQ-Artemis的spring-boot starter-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-artemis</artifactId>
+        </dependency>
+
+<!--    spring-boot 邮件依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+
+<!--    spring-boot 集成redis-->
+        <dependency>
+            <groupId>io.lettuce</groupId>
+            <artifactId>lettuce-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>
+<!--    spring-boot 集成rabbitMQ-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+<!--    使用kafka-->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
+
+        <!--    junit-->
+<!--        <dependency>-->
+<!--            <groupId>junit</groupId>-->
+<!--            <artifactId>junit</artifactId>-->
+<!--            <version>4.11</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+        <!--    ioc-->
+<!--        &lt;!&ndash;    aop&ndash;&gt;-->
+<!--        &lt;!&ndash;    spring处理jdbc需要的（jdbcTemplate、DataSourceTransactionManager）&ndash;&gt;-->
+        <!--    mysql数据库驱动-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!--  hibernate-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.hibernate</groupId>-->
+        <!--            <artifactId>hibernate-core</artifactId>-->
+        <!--            <version>5.4.2.Final</version>-->
+        <!--        </dependency>-->
+
+
+<!--        <dependency>-->
+<!--            <groupId>org.apache.tomcat.embed</groupId>-->
+<!--            <artifactId>tomcat-embed-jasper</artifactId>-->
+<!--            <version>9.0.26</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+
+
+
+
+        <!--    Spring封装的支持WebSocket的接口-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-websocket</artifactId>-->
+<!--            <version>${spring.version}</version>-->
+<!--        </dependency>-->
+
+        <!--    嵌入式Tomcat支持WebSocket的组件-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.tomcat.embed</groupId>-->
+<!--            <artifactId>tomcat-embed-websocket</artifactId>-->
+<!--            <version>9.0.26</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+
+        <!--     Spring集成JavaMail需要的依赖-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-context-support</artifactId>-->
+<!--            <version>${spring.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>javax.mail</groupId>-->
+<!--            <artifactId>javax.mail-api</artifactId>-->
+<!--            <version>1.6.2</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.sun.mail</groupId>-->
+<!--            <artifactId>javax.mail</artifactId>-->
+<!--            <version>1.6.2</version>-->
+<!--        </dependency>-->
+
+    </dependencies>
+
+
+
+    <build>
+<!--    重新命名打的jar包-->
+        <finalName>awesome-app</finalName>
+<!--    这个插件在打包的时候会生成两个jar包，
+        一个是不带依赖的awesome-app.jar.origin
+        一个是带依赖，可以直接部署运行的awesome-app.jar (java -jar awesome-app.jar)-->
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+            <plugins>
+                <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+                <plugin>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>3.1.0</version>
+                </plugin>
+                <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+                <plugin>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.0.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.0</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.22.1</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.0.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>2.5.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.8.2</version>
+                </plugin>
+                <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+                <plugin>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.7.1</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-project-info-reports-plugin</artifactId>
+                    <version>3.0.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

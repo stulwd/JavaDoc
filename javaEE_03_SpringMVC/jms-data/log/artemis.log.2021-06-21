@@ -1,0 +1,567 @@
+2021-06-21 00:01:54,443 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@2426ba55.
+2021-06-21 00:01:54,447 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@66f51b7b.
+2021-06-21 00:01:54,447 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@11db49ee.
+2021-06-21 00:01:54,447 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6fa7016f.
+2021-06-21 00:01:54,443 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@627c492b.
+2021-06-21 02:08:38,773 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-21 02:08:38,803 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-21 02:08:38,828 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-06-21 02:08:38,866 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-06-21 02:08:38,883 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-21 02:08:38,884 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-21 02:08:38,885 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-21 02:08:38,886 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-21 02:08:38,887 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-21 02:08:38,890 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-21 02:08:38,939 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-06-21 02:08:38,939 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-06-21 02:08:39,665 INFO  [org.apache.activemq.artemis.core.server] AMQ221019: Deleting unreferenced message id=2,147,505,446 from the journal
+2021-06-21 02:08:39,669 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-21 02:08:39,672 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-21 02:08:39,677 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-21 02:08:39,677 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-21 02:08:40,455 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-21 02:08:40,483 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-21 02:08:40,507 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-21 02:08:40,534 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-21 02:08:40,559 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-21 02:08:40,565 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-21 02:08:40,565 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=36440215-cf4d-11eb-ac7a-5c80b6433a73] 
+2021-06-21 02:08:41,265 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-21 02:08:41,339 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-21 02:08:41,770 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-21 02:08:41,806 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-21 02:08:41,808 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-21 02:08:41,814 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-21 02:08:41,831 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-21 02:08:41,838 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/wendi/Desktop/javaCE/javaEE_03_SpringMVC/jms-data/etc/\jolokia-access.xml]
+2021-06-21 02:08:42,154 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-06-21 02:08:42,154 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-06-21 02:08:42,155 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-06-21 02:23:41,292 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2021-06-21 02:23:41,293 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2021-06-21 02:23:41,329 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-06-21 02:23:41,346 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2021-06-21 02:23:41,367 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [36440215-cf4d-11eb-ac7a-5c80b6433a73] stopped, uptime 15 minutes
+2021-06-21 02:25:42,499 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-21 02:25:42,530 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-21 02:25:42,557 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-06-21 02:25:42,602 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-06-21 02:25:42,621 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-21 02:25:42,621 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-21 02:25:42,621 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-21 02:25:42,622 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-21 02:25:42,622 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-21 02:25:42,623 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-21 02:25:42,672 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-06-21 02:25:42,673 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-06-21 02:25:43,419 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-21 02:25:43,424 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-21 02:25:43,430 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-21 02:25:43,430 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-21 02:25:44,238 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-21 02:25:44,267 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-21 02:25:44,293 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-21 02:25:44,321 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-21 02:25:44,344 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-21 02:25:44,350 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-21 02:25:44,350 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=36440215-cf4d-11eb-ac7a-5c80b6433a73] 
+2021-06-21 02:25:44,613 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-21 02:25:44,708 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-21 02:25:45,226 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-21 02:25:45,263 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-21 02:25:45,266 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-21 02:25:45,275 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-21 02:25:45,295 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-21 02:25:45,302 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/wendi/Desktop/javaCE/javaEE_03_SpringMVC/jms-data/etc/\jolokia-access.xml]
+2021-06-21 02:25:45,689 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-06-21 02:25:45,689 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-06-21 02:25:45,689 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-06-21 03:12:06,529 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-21 03:12:06,559 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-21 03:12:06,585 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-06-21 03:12:06,626 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-06-21 03:12:06,644 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-21 03:12:06,645 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-21 03:12:06,645 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-21 03:12:06,645 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-21 03:12:06,646 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-21 03:12:06,646 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-21 03:12:06,688 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-06-21 03:12:06,689 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-06-21 03:12:07,418 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-21 03:12:07,422 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-21 03:12:07,428 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-21 03:12:07,428 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-21 03:12:08,229 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-21 03:12:08,256 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-21 03:12:08,286 ERROR [org.apache.activemq.artemis.core.server] AMQ224104: Error starting the Acceptor amqp {scheme=tcp, tcpReceiveBufferSize=1048576, port=5672, host=0.0.0.0, protocols=AMQP, useEpoll=true, tcpSendBufferSize=1048576}
+2021-06-21 03:12:08,286 ERROR [org.apache.activemq.artemis.core.server] AMQ224000: Failure in initialisation: java.lang.IllegalStateException: AMQ229230: Failed to bind acceptor amqp to 0.0.0.0:5672
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyAcceptor.startServerChannels(NettyAcceptor.java:695) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyAcceptor.start(NettyAcceptor.java:458) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.remoting.server.impl.RemotingServiceImpl.startAcceptors(RemotingServiceImpl.java:317) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl.completeActivation(ActiveMQServerImpl.java:3309) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.LiveOnlyActivation.run(LiveOnlyActivation.java:78) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl.internalStart(ActiveMQServerImpl.java:635) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl.start(ActiveMQServerImpl.java:559) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.integration.FileBroker.start(FileBroker.java:64) [artemis-cli-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.cli.commands.Run.execute(Run.java:115) [artemis-cli-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.cli.Artemis.internalExecute(Artemis.java:154) [artemis-cli-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.cli.Artemis.execute(Artemis.java:102) [artemis-cli-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.cli.Artemis.execute(Artemis.java:129) [artemis-cli-2.17.0.jar:2.17.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [java.base:]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [java.base:]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [java.base:]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) [java.base:]
+	at org.apache.activemq.artemis.boot.Artemis.execute(Artemis.java:134) [artemis-boot.jar:2.17.0]
+	at org.apache.activemq.artemis.boot.Artemis.main(Artemis.java:50) [artemis-boot.jar:2.17.0]
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method) [java.base:]
+	at java.base/sun.nio.ch.Net.bind(Net.java:455) [java.base:]
+	at java.base/sun.nio.ch.Net.bind(Net.java:447) [java.base:]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) [java.base:]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.51.Final.jar:4.1.51.Final]
+	at org.apache.activemq.artemis.utils.ActiveMQThreadFactory$1.run(ActiveMQThreadFactory.java:118) [artemis-commons-2.17.0.jar:2.17.0]
+
+2021-06-21 03:12:08,289 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=36440215-cf4d-11eb-ac7a-5c80b6433a73] 
+2021-06-21 03:12:09,020 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-21 03:12:09,098 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-21 03:12:09,491 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-21 03:12:09,516 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-21 03:12:09,517 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-21 03:12:09,522 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-21 03:12:09,535 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-21 03:12:09,540 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/wendi/Desktop/javaCE/javaEE_03_SpringMVC/jms-data/etc/\jolokia-access.xml]
+2021-06-21 03:12:09,875 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-06-21 03:12:09,876 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-06-21 03:12:09,876 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-06-21 03:12:09,911 ERROR [org.apache.activemq.artemis.core.server] AMQ224065: Failed to remove auto-created queue jms/queue/mail: ActiveMQShutdownException[errorType=SHUTDOWN_ERROR message=Journal must be in state=LOADED, was [STOPPED]]
+	at org.apache.activemq.artemis.core.journal.impl.JournalImpl.checkJournalIsLoaded(JournalImpl.java:1167) [artemis-journal-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.journal.impl.JournalImpl.appendDeleteRecordTransactional(JournalImpl.java:1240) [artemis-journal-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.journal.impl.JournalBase.appendDeleteRecordTransactional(JournalBase.java:106) [artemis-journal-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.journal.impl.JournalImpl.appendDeleteRecordTransactional(JournalImpl.java:92) [artemis-journal-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.persistence.impl.journal.AbstractJournalStorageManager.deleteAddressBinding(AbstractJournalStorageManager.java:1514) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl.removeAddressInfo(ActiveMQServerImpl.java:3630) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl.removeAddressInfo(ActiveMQServerImpl.java:3610) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.ActiveMQServerImpl.destroyQueue(ActiveMQServerImpl.java:2366) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.QueueManagerImpl.performAutoDeleteQueue(QueueManagerImpl.java:72) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.core.server.impl.QueueManagerImpl.doIt(QueueManagerImpl.java:44) [artemis-server-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.utils.actors.OrderedExecutor.doTask(OrderedExecutor.java:42) [artemis-commons-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.utils.actors.OrderedExecutor.doTask(OrderedExecutor.java:31) [artemis-commons-2.17.0.jar:2.17.0]
+	at org.apache.activemq.artemis.utils.actors.ProcessorBase.executePendingTasks(ProcessorBase.java:65) [artemis-commons-2.17.0.jar:2.17.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [java.base:]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [java.base:]
+	at org.apache.activemq.artemis.utils.ActiveMQThreadFactory$1.run(ActiveMQThreadFactory.java:118) [artemis-commons-2.17.0.jar:2.17.0]
+
+2021-06-21 03:12:10,136 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2021-06-21 03:12:10,137 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2021-06-21 03:12:10,183 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-06-21 03:12:10,205 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2021-06-21 03:12:10,232 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [36440215-cf4d-11eb-ac7a-5c80b6433a73] stopped, uptime 3.683 seconds
+2021-06-21 03:59:15,483 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-21 03:59:15,516 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-21 03:59:15,543 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-06-21 03:59:15,583 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-06-21 03:59:15,601 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-21 03:59:15,601 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-21 03:59:15,602 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-21 03:59:15,602 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-21 03:59:15,602 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-21 03:59:15,603 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-21 03:59:15,640 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-06-21 03:59:15,641 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-06-21 03:59:16,371 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-21 03:59:16,374 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-21 03:59:16,379 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-21 03:59:16,379 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-21 03:59:17,181 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-21 03:59:17,205 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-21 03:59:17,229 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-21 03:59:17,256 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-21 03:59:17,282 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-21 03:59:17,287 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-21 03:59:17,288 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=36440215-cf4d-11eb-ac7a-5c80b6433a73] 
+2021-06-21 03:59:17,562 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-21 03:59:17,664 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-21 03:59:18,072 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-21 03:59:18,103 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-21 03:59:18,107 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-21 03:59:18,111 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-21 03:59:18,125 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-21 03:59:18,131 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/wendi/Desktop/javaCE/javaEE_03_SpringMVC/jms-data/etc/\jolokia-access.xml]
+2021-06-21 03:59:18,460 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-06-21 03:59:18,460 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-06-21 03:59:18,460 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-06-21 04:03:18,978 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2021-06-21 04:03:18,980 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2021-06-21 04:03:19,017 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-06-21 04:03:19,034 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2021-06-21 04:03:19,056 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [36440215-cf4d-11eb-ac7a-5c80b6433a73] stopped, uptime 4 minutes
+2021-06-21 04:03:30,391 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-21 04:03:30,421 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-21 04:03:30,447 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-06-21 04:03:30,488 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-06-21 04:03:30,506 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-21 04:03:30,506 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-21 04:03:30,507 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-21 04:03:30,507 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-21 04:03:30,508 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-21 04:03:30,508 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-21 04:03:30,553 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-06-21 04:03:30,553 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-06-21 04:03:31,283 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-21 04:03:31,286 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-21 04:03:31,291 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-21 04:03:31,291 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-21 04:03:32,122 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-21 04:03:32,152 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-21 04:03:32,182 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-21 04:03:32,213 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-21 04:03:32,240 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-21 04:03:32,242 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-21 04:03:32,243 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=36440215-cf4d-11eb-ac7a-5c80b6433a73] 
+2021-06-21 04:03:32,515 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-21 04:03:32,695 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-21 04:03:33,251 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-21 04:03:33,285 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-21 04:03:33,287 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-21 04:03:33,294 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-21 04:03:33,314 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-21 04:03:33,321 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/wendi/Desktop/javaCE/javaEE_03_SpringMVC/jms-data/etc/\jolokia-access.xml]
+2021-06-21 04:03:33,746 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-06-21 04:03:33,746 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-06-21 04:03:33,746 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-06-21 04:30:37,507 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2021-06-21 04:30:37,892 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2021-06-21 04:30:40,526 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-21 05:06:23,533 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2021-06-21 05:27:59,911 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:27:59,929 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:27:59,949 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:27:59,953 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:27:59,974 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:27:59,980 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:27:59,985 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:27:59,990 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:27:59,995 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,000 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,008 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,014 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,019 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,024 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,030 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,035 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,041 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,045 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,049 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:00,054 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:04,990 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:04,993 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:05,008 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:05,012 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:05,030 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:05,036 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:05,053 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:05,058 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:05,072 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:05,077 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,013 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,017 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,028 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,033 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,052 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,056 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,072 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,076 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,093 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:10,097 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,034 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,037 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,050 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,052 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,076 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,083 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,093 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,096 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,114 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:15,116 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,057 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,060 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,070 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,073 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,100 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,102 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,116 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,123 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,134 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:20,138 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,082 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,086 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,088 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,090 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,117 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,120 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,142 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,149 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,156 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:25,162 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,110 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,112 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,115 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,117 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,147 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,149 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,168 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,170 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,177 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:30,179 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,128 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,130 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,133 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,134 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,165 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,168 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,185 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,187 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,195 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:35,197 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,148 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,150 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,152 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,153 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,182 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,185 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,202 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,204 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,211 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:40,213 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,170 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,176 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,182 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,211 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,213 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,215 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,218 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,220 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,227 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:45,229 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,194 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,196 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,231 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,233 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,236 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,238 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,240 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,244 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,246 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:50,249 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,210 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,212 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,250 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,252 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,255 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,257 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,261 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,264 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,266 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:28:55,269 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,230 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,232 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,266 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,268 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,273 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,275 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,277 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,279 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,283 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:29:00,285 WARN  [org.apache.activemq.artemis.core.server] AMQ222216: Security problem while authenticating: AMQ229031: Unable to validate user from null. Username: null; SSL certificate subject DN: unavailable
+2021-06-21 05:38:14,947 WARN  [org.apache.activemq.artemis.core.server] AMQ222149: Message Reference[6442467452]:RELIABLE:CoreMessage[messageID=6442467452,durable=true,userID=36da4a3f-d20f-11eb-a4b9-5c80b6433a73,priority=4, timestamp=Mon Jun 21 05:33:55 CST 2021,expiration=0, durable=true, address=jms/queue/mail,size=696,properties=TypedProperties[__AMQ_CID=8b17cceb-d20e-11eb-a4b9-5c80b6433a73,_AMQ_ROUTING_TYPE=1]]@884274252 has reached maximum delivery attempts, sending it to Dead Letter Address DLQ from jms/queue/mail
+2021-06-21 15:40:59,656 WARN  [org.apache.activemq.artemis.core.server] AMQ222210: Free storage space is at 18.6GB of 214.7GB total. Usage rate is 91.3% which is beyond the configured <max-disk-usage>. System will start blocking producers.
+2021-06-21 15:40:59,925 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@62d622ad.
+2021-06-21 15:40:59,925 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@20f40fd0.
+2021-06-21 15:40:59,925 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@628b5c18.
+2021-06-21 15:41:00,002 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@178db828.
+2021-06-21 15:41:00,003 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@62784998.
+2021-06-21 15:41:00,003 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@7836997f.
+2021-06-21 15:41:00,338 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@5073dd51.
+2021-06-21 15:41:00,338 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@3db8ac61.
+2021-06-21 15:41:00,339 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@44e37739.
+2021-06-21 15:41:00,339 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@19d4942e.
+2021-06-21 15:41:00,339 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@22e9871f.
+2021-06-21 15:41:00,340 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@46de8e41.
+2021-06-21 15:41:00,340 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@68b97f22.
+2021-06-21 15:41:00,340 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@44811661.
+2021-06-21 15:41:00,340 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@3e0e4cb1.
+2021-06-21 15:41:00,340 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@2da3c625.
+2021-06-21 15:41:00,342 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@231f644.
+2021-06-21 15:41:00,343 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@423e37c3.
+2021-06-21 15:41:00,343 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@3e525454.
+2021-06-21 15:41:00,344 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@2b6d4f04.
+2021-06-21 15:41:00,344 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@76db91af.
+2021-06-21 15:41:00,344 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@62d498c7.
+2021-06-21 15:41:00,340 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@34650c35.
+2021-06-21 15:41:00,346 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@278f772b.
+2021-06-21 15:41:00,347 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@5fc9fe43.
+2021-06-21 15:41:00,347 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6e591fe4.
+2021-06-21 15:41:00,347 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@64cfbc7c.
+2021-06-21 15:41:00,702 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,702 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,703 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 15:41:00,703 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 15:41:00,703 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,703 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,704 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,705 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 15:41:00,705 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,705 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,705 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,706 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,707 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,707 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,707 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,708 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 15:41:00,708 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,715 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,715 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@f44155c.
+2021-06-21 15:41:00,719 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@759f0ad1.
+2021-06-21 15:41:00,721 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@2455401d.
+2021-06-21 15:41:00,722 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6aeac268.
+2021-06-21 15:41:00,723 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,736 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,737 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,737 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 15:41:00,737 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,738 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,739 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,740 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,740 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,788 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,789 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,789 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,789 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,862 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4ae951fe.
+2021-06-21 15:41:00,862 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@1feb9904.
+2021-06-21 15:41:00,862 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@37cd8677.
+2021-06-21 15:41:00,862 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4d519cd0.
+2021-06-21 15:41:00,862 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@22b57635.
+2021-06-21 15:41:00,862 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4145a827.
+2021-06-21 15:41:00,863 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@53b523ec.
+2021-06-21 15:41:00,865 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@36c34851.
+2021-06-21 15:41:00,866 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@50f6ac00.
+2021-06-21 15:41:00,866 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@2304521f.
+2021-06-21 15:41:00,866 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@2efc42dd.
+2021-06-21 15:41:00,866 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@7e4ec618.
+2021-06-21 15:41:00,869 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6603f9b4.
+2021-06-21 15:41:00,870 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@822e5ab.
+2021-06-21 15:41:00,951 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,951 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,951 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,951 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,951 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,951 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,952 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,952 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,953 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,953 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,954 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,954 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,954 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:00,955 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-21 15:41:04,659 INFO  [org.apache.activemq.artemis.core.server] AMQ222211: Free storage space is at 39.1GB of 214.7GB total. Usage rate is 81.8% which is below the configured <max-disk-usage>.
+2021-06-21 17:56:29,956 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-21 17:56:29,986 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-21 17:56:30,013 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-06-21 17:56:30,060 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-06-21 17:56:30,079 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-21 17:56:30,080 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-21 17:56:30,080 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-21 17:56:30,080 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-21 17:56:30,081 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-21 17:56:30,081 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-21 17:56:30,124 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-06-21 17:56:30,124 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-06-21 17:56:30,856 INFO  [org.apache.activemq.artemis.core.server] AMQ221019: Deleting unreferenced message id=6,442,467,452 from the journal
+2021-06-21 17:56:30,859 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-21 17:56:30,862 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-21 17:56:30,868 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-21 17:56:30,868 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-21 17:56:31,682 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-21 17:56:31,708 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-21 17:56:31,732 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-21 17:56:31,758 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-21 17:56:31,780 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-21 17:56:31,785 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-21 17:56:31,785 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=36440215-cf4d-11eb-ac7a-5c80b6433a73] 
+2021-06-21 17:56:32,567 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-21 17:56:32,642 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-21 17:56:33,010 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-21 17:56:33,037 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-21 17:56:33,039 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-21 17:56:33,045 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-21 17:56:33,058 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-21 17:56:33,063 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/wendi/Desktop/javaCE/javaEE_03_SpringMVC/jms-data/etc/\jolokia-access.xml]
+2021-06-21 17:56:33,467 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-06-21 17:56:33,468 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-06-21 17:56:33,468 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-06-21 21:18:05,537 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4b4227a5.
+2021-06-21 21:18:05,538 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@7441013a.
+2021-06-21 21:18:05,523 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@2ad6a65.
+2021-06-21 21:18:05,522 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@43b8f887.
+2021-06-21 21:18:05,541 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@50dec289.
+2021-06-21 21:18:05,775 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 21:18:05,775 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 21:18:05,779 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 21:18:05,779 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 21:18:05,780 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-21 22:16:16,742 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-21 22:16:18,035 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-21 22:16:18,059 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-06-21 22:16:18,098 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-06-21 22:16:18,116 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-21 22:16:18,116 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-21 22:16:18,117 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-21 22:16:18,117 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-21 22:16:18,118 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-21 22:16:18,118 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-21 22:16:18,165 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-06-21 22:16:18,165 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-06-21 22:16:18,899 INFO  [org.apache.activemq.artemis.core.server] AMQ221019: Deleting unreferenced message id=6,442,467,452 from the journal
+2021-06-21 22:16:18,902 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-21 22:16:18,906 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-21 22:16:18,913 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-21 22:16:18,913 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-21 22:16:19,730 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-21 22:16:19,756 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-21 22:16:19,780 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-21 22:16:19,807 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-21 22:16:19,828 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-21 22:16:19,834 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-21 22:16:19,834 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=36440215-cf4d-11eb-ac7a-5c80b6433a73] 
+2021-06-21 22:16:20,568 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-21 22:16:20,653 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-21 22:16:21,051 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-21 22:16:21,084 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-21 22:16:21,087 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-21 22:16:21,093 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-21 22:16:21,108 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-21 22:16:21,113 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/wendi/Desktop/javaCE/javaEE_03_SpringMVC/jms-data/etc/\jolokia-access.xml]
+2021-06-21 22:16:21,538 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-06-21 22:16:21,538 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-06-21 22:16:21,542 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-06-21 23:24:04,161 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2021-06-21 23:24:04,163 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2021-06-21 23:24:04,204 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-06-21 23:24:04,224 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2021-06-21 23:24:04,249 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [36440215-cf4d-11eb-ac7a-5c80b6433a73] stopped, uptime 1 hour 7 minutes

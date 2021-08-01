@@ -1,0 +1,170 @@
+# application.properties
+
+#  spring.application.name=${APP_NAME:unnamed}
+#  
+#  spring.datasource.url=jdbc:hsqldb:file:testdb
+#  spring.datasource.username=sa
+#  spring.datasource.password=
+#  spring.datasource.dirver-class-name=org.hsqldb.jdbc.JDBCDriver
+#  
+#  spring.datasource.hikari.auto-commit=false
+#  spring.datasource.hikari.connection-timeout=3000
+#  spring.datasource.hikari.validation-timeout=3000
+#  spring.datasource.hikari.max-lifetime=60000
+#  spring.datasource.hikari.maximum-pool-size=20
+#  spring.datasource.hikari.minimum-idle=1
+
+# application.yml
+
+spring:
+  application:
+    name: ${APP_NAME:unnamed}
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/learnjdbc
+#    username: learn
+#    password: learnpassword
+#    driver-class-name: com.mysql.jdbc.Driver
+#    hikari:
+#      auto-commit: false
+#      connection-timeout: 3000
+#      validation-timeout: 3000
+#      max-lifetime: 60000
+#      maximum-pool-size: 20
+#      minimum-idle: 1
+  datasource-master:
+    url: jdbc:mysql://localhost:3306/learnjdbc
+    username: learn
+    password: learnpassword
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      auto-commit: false
+      connection-timeout: 3000
+      validation-timeout: 3000
+      max-lifetime: 60000
+      maximum-pool-size: 20
+      minimum-idle: 1
+  datasource-slave:
+    url: jdbc:mysql://localhost:3306/learnjdbc
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      auto-commit: false
+      connection-timeout: 3000
+      validation-timeout: 3000
+      max-lifetime: 60000
+      maximum-pool-size: 20
+      minimum-idle: 1
+
+  # sppring-boot集成JMS时，只要引入了spring-boot-starter-artemis
+  # 就会自动创建JMS相关的ConnectionFactory、JmsListenerContainerFactory、JmsTemplate
+  artemis:
+    # 指定连接外部的artemis服务器，而不是启动嵌入式服务器
+    mode: native
+    # 服务器地址和端口号:
+    host: localhost
+    port: 61616
+    user: admin
+    password: admin
+
+  mail:
+    # 163
+    host: smtp.163.com
+    port: 25
+    username: stulwd@163.com
+    password: DGSHPUSIZVRPYSKZ
+    protocol: smtp
+    default-encoding: UTF-8
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+      mail.smtp.socketFactory.port: 465
+      mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
+      mail.smtp.socketFactory.fallback: false
+  # redis配置
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
+    password: ${REDIS_PASSWORD:}
+    ssl: ${REDIS_SSL:false}
+    database: ${REDIS_DATABASE:0}
+  # rabbitMQ配置
+  rabbitmq:
+    host: localhost
+    port: 5673
+    username: guest
+    password: guest
+  # kafka配置
+  kafka:
+    bootstrap-server: localhost:9092
+    consumer:
+      auto-offset-reset: latest
+      max-poll-records: 100 # 一次最多抓取100条消息
+      max-partition-fetch-bytes: 1000000
+
+
+# 默认情况下，只有health和info会暴露给Web（例如health通过http://localhost:8080/actuator/health访问，其他的类似）。
+# Actuator提供的所有访问点均在官方文档列出，要暴露更多的访问点给Web
+# 按照如下方法配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, beans, env, metrics
+
+pebble:
+  suffix:
+  cache: false
+
+server:
+  port: ${APP_PORT:8080}
+
+storage:
+  type: ${STORAGE_TYPE:local}
+  local:
+    root-dir: ${STORAGE_LOCAL_ROOT:C:\Users\wendi\Desktop\javaCE\javaEE_04_SpringBoot\src\main\resources}
+    max-size: ${STORAGE_LOCAL_MAX_SIZE:102400}
+    allow-empty: false
+    allow-types: jpg, png, gif
+  aws:
+    bucket: ${STORAGE_AWS_BUCKET:}
+    access-key: ${STORAGE_AWS_ACCESS_KEY}
+    access-secret: ${STORAGE_AWS_ACCESS_SECRET}
+  aliyun:
+    bucket: ${STORAGE_ALIYUN_BUCKET:}
+    access-key: ${STORAGE_ALIYUN_ACCESS_KEY}
+    access-secret: ${STORAGE_ALIYUN_ACCESS_SECRET}
+
+task:
+  checkDiskSpace: 30000
+
+
+
+# 上面是默认配置，不需要指定profiles，后面的每段配置都必须以spring.profiles: xxx开头，表示一个Profile
+# 在启动的时候，可以通过加启动参数
+# -Dspring.profiles.active=test,master来指定profiles
+# idea里通过‘Edit Configurations’ -> 'add VM options'来添加参数。
+# 指定了profile后，有效配置就是上面默认配置 + Profile配置，并且profile会覆盖默认配置里的同名项
+# 指定profiles后，启动的时候会看到
+#2020-06-13 11:20:58.141  INFO ...... : Starting Application on ... with PID 73265 ...
+#2020-06-13 11:20:58.144  INFO ...... : The following profiles are active: test
+# 不指定，会看到
+#2020-06-13 11:20:58.144  INFO ...... : No active profile set, falling back to default profiles: default
+---
+
+spring:
+  profiles: test      # 测试环境
+
+server:
+  port: 8000
+
+---
+spring:
+  profiles: production    # 生产环境
+
+server:
+  port: 80
+
+pebble:
+  cache: true   # 生产环境开启pebble缓存

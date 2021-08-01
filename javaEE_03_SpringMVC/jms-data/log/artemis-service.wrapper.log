@@ -1,0 +1,7 @@
+2021-06-20 03:13:02,777 DEBUG - Starting WinSW in the CLI mode
+2021-06-20 03:13:03,082 INFO  - Starting the service with id 'artemis-jms-data-0.0.0.0'
+2021-06-20 03:13:03,090 FATAL - WMI Operation failure: NoSuchService
+WMI.WmiException: NoSuchService
+   дк winsw.WrapperService.<Run>g__Start|33_2(<>c__DisplayClass33_0& )
+   дк winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   дк winsw.WrapperService.Main(String[] args)

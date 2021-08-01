@@ -1,0 +1,3 @@
+jconsole是JavaSE自带的运维管理工具
+
+通过cmd输入jconsole即可打开界面

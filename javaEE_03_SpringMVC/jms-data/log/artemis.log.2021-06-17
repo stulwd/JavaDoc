@@ -1,0 +1,107 @@
+2021-06-17 17:20:08,850 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-06-17 17:20:09,493 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-06-17 17:20:09,524 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-06-17 17:20:09,566 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-06-17 17:20:09,586 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-06-17 17:20:09,589 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-06-17 17:20:09,590 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-06-17 17:20:09,593 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-06-17 17:20:09,594 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-06-17 17:20:09,594 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-06-17 17:20:09,634 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-06-17 17:20:09,634 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-06-17 17:20:09,739 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-06-17 17:20:09,752 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-06-17 17:20:09,795 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-06-17 17:20:09,796 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-06-17 17:20:10,590 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-06-17 17:20:10,616 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-06-17 17:20:10,638 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-06-17 17:20:10,663 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-06-17 17:20:10,685 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-06-17 17:20:10,691 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-06-17 17:20:10,691 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=36440215-cf4d-11eb-ac7a-5c80b6433a73] 
+2021-06-17 17:20:10,956 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-06-17 17:20:11,044 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-06-17 17:20:11,436 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-06-17 17:20:11,464 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-06-17 17:20:11,467 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-06-17 17:20:11,472 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-06-17 17:20:11,486 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-06-17 17:20:11,491 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Users/wendi/Desktop/javaCE/javaEE_03_SpringMVC/jms-data/etc/\jolokia-access.xml]
+2021-06-17 17:20:11,847 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-06-17 17:20:11,847 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-06-17 17:20:11,849 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-06-17 17:20:38,754 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2021-06-17 17:20:39,111 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2021-06-17 17:20:48,202 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-17 19:22:11,981 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4b98c4e5.
+2021-06-17 19:22:11,980 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@792cd404.
+2021-06-17 19:22:11,981 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4b426261.
+2021-06-17 19:22:11,980 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@46eda1a7.
+2021-06-17 19:22:11,982 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@1ed1bf50.
+2021-06-17 19:22:11,984 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 19:22:11,984 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 19:22:11,984 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 19:22:11,984 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 19:22:11,985 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 19:31:03,399 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@78a22378.
+2021-06-17 19:31:03,401 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 19:31:54,389 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-17 19:33:56,097 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@7f88ac2e.
+2021-06-17 19:33:56,099 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 19:37:27,785 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@52835bb2.
+2021-06-17 19:37:27,787 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 21:57:50,548 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4ac259b3.
+2021-06-17 21:57:50,549 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@28355b5e.
+2021-06-17 21:57:50,550 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@3d446710.
+2021-06-17 21:57:50,549 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@61ce16c6.
+2021-06-17 21:57:50,554 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@1fa39735.
+2021-06-17 21:57:50,558 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@1016560.
+2021-06-17 21:57:50,565 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@77ae30c9.
+2021-06-17 21:57:50,571 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 21:57:50,575 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 21:57:50,577 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-17 21:57:50,578 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 21:57:50,582 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 21:57:50,586 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-17 21:57:50,586 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 22:57:45,768 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:61360 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-17 22:57:45,769 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 7f9dc203-cf5f-11eb-868f-5c80b6433a73
+2021-06-17 22:57:45,770 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 7f9dc203-cf5f-11eb-868f-5c80b6433a73
+2021-06-17 22:57:45,770 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 7facdd34-cf5f-11eb-868f-5c80b6433a73
+2021-06-17 22:57:45,773 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 7facdd34-cf5f-11eb-868f-5c80b6433a73
+2021-06-17 22:57:45,774 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session e688a6ba-cf5f-11eb-868f-5c80b6433a73
+2021-06-17 22:57:45,774 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session e688a6ba-cf5f-11eb-868f-5c80b6433a73
+2021-06-17 23:16:02,047 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@1d503dff.
+2021-06-17 23:16:02,050 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:32:35,797 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6ab7d3ed.
+2021-06-17 23:32:35,799 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:32:47,717 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@635fe904.
+2021-06-17 23:32:47,720 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:32:52,969 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: admin
+2021-06-17 23:43:38,659 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:65533 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-17 23:43:38,660 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session ed6e274b-cf7e-11eb-973e-005056c00008
+2021-06-17 23:43:38,661 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session ed6e274b-cf7e-11eb-973e-005056c00008
+2021-06-17 23:43:38,661 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session ed710d7c-cf7e-11eb-973e-005056c00008
+2021-06-17 23:43:38,665 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session ed710d7c-cf7e-11eb-973e-005056c00008
+2021-06-17 23:43:38,665 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 3dbb2e92-cf81-11eb-973e-005056c00008
+2021-06-17 23:43:38,666 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 3dbb2e92-cf81-11eb-973e-005056c00008
+2021-06-17 23:43:47,878 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@343fded4.
+2021-06-17 23:43:47,879 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:46:09,035 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@7eb550a4.
+2021-06-17 23:46:09,036 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:59:55,344 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@9a96708.
+2021-06-17 23:59:55,344 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@1e3ed9ed.
+2021-06-17 23:59:55,344 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@196dcbb5.
+2021-06-17 23:59:55,344 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@64510f24.
+2021-06-17 23:59:55,345 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@797a4432.
+2021-06-17 23:59:55,345 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@670de023.
+2021-06-17 23:59:55,345 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@32ec6cd1.
+2021-06-17 23:59:55,345 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-17 23:59:55,349 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-17 23:59:55,350 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:59:55,350 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:59:55,351 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:59:55,351 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-17 23:59:55,351 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.

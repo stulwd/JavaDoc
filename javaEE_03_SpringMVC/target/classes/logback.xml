@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <appender name="STDOUT"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+<!--            这个%logger{16}数字代表最多显示的字符，如果数字小的话，会打印简写-->
+<!--            例如
+2021-06-16 02:30:57 INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1215 ms
+不知道为甚么这个工具还会打印DispatcherServlet的内容-->
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss} {%thread} %-5level %logger{36} - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <logger name="com.lwdHouse.learnjava" level="info" additivity="false">
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

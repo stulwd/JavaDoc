@@ -1,0 +1,95 @@
+2021-06-18 00:19:21,865 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2021-06-18 00:33:29,549 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:60584 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-18 00:33:29,550 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session ce572dcc-cf82-11eb-83e8-080027005cfe
+2021-06-18 00:33:29,552 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session ce572dcc-cf82-11eb-83e8-080027005cfe
+2021-06-18 00:33:29,555 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session ce59c5dd-cf82-11eb-83e8-080027005cfe
+2021-06-18 00:33:29,559 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session ce59c5dd-cf82-11eb-83e8-080027005cfe
+2021-06-18 00:33:29,559 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 2275c163-cf83-11eb-83e8-080027005cfe
+2021-06-18 00:33:29,561 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 2275c163-cf83-11eb-83e8-080027005cfe
+2021-06-18 00:35:42,255 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@2814e113.
+2021-06-18 00:35:42,258 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 00:35:49,151 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@604ed2f8.
+2021-06-18 00:35:49,153 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 00:41:12,908 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@3d5eb344.
+2021-06-18 00:41:12,909 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 00:42:42,916 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@7defd077.
+2021-06-18 00:42:42,919 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 00:43:24,019 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:54815 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-18 00:43:24,020 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 096e4f32-cf8b-11eb-86fa-080027005cfe
+2021-06-18 00:43:24,022 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 096e4f32-cf8b-11eb-86fa-080027005cfe
+2021-06-18 00:43:24,025 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 097490c3-cf8b-11eb-86fa-080027005cfe
+2021-06-18 00:43:24,028 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 097490c3-cf8b-11eb-86fa-080027005cfe
+2021-06-18 00:43:37,742 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4438532e.
+2021-06-18 00:43:37,746 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 00:46:58,171 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@c4e531b.
+2021-06-18 00:46:58,173 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 00:59:47,190 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@3dbadb46.
+2021-06-18 00:59:47,195 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-18 01:02:41,937 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:62944 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-18 01:02:41,940 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session a18c92bd-cf8b-11eb-a55d-080027005cfe
+2021-06-18 01:02:41,951 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session a18c92bd-cf8b-11eb-a55d-080027005cfe
+2021-06-18 01:02:41,956 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session a191269e-cf8b-11eb-a55d-080027005cfe
+2021-06-18 01:02:41,961 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session a191269e-cf8b-11eb-a55d-080027005cfe
+2021-06-18 01:02:58,463 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6bd4ff36.
+2021-06-18 01:02:58,465 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 01:10:20,086 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:55536 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-18 01:10:20,088 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session ddec2080-cf8d-11eb-8028-0800270050ac
+2021-06-18 01:10:20,094 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session ddec2080-cf8d-11eb-8028-0800270050ac
+2021-06-18 01:10:20,095 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session ddefa2f1-cf8d-11eb-8028-0800270050ac
+2021-06-18 01:10:20,100 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session ddefa2f1-cf8d-11eb-8028-0800270050ac
+2021-06-18 01:10:33,980 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@63857e7f.
+2021-06-18 01:10:33,982 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 01:14:44,633 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:53544 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-18 01:14:44,635 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session ed716812-cf8e-11eb-958f-5c80b6433a73
+2021-06-18 01:14:44,640 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session ed716812-cf8e-11eb-958f-5c80b6433a73
+2021-06-18 01:14:44,641 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session ed797e63-cf8e-11eb-958f-5c80b6433a73
+2021-06-18 01:14:44,644 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session ed797e63-cf8e-11eb-958f-5c80b6433a73
+2021-06-18 01:14:58,787 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@61c67113.
+2021-06-18 01:14:58,790 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 01:34:38,168 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4f9abf90.
+2021-06-18 01:34:38,174 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-18 01:34:48,202 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@52963555.
+2021-06-18 01:34:48,207 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-18 01:43:55,960 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:63582 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-18 01:43:55,963 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 8b46ad9f-cf8f-11eb-91f3-5c80b6433a73
+2021-06-18 01:43:55,972 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 8b46ad9f-cf8f-11eb-91f3-5c80b6433a73
+2021-06-18 01:43:55,974 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 8b4a3010-cf8f-11eb-91f3-5c80b6433a73
+2021-06-18 01:43:55,977 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 8b4a3010-cf8f-11eb-91f3-5c80b6433a73
+2021-06-18 01:44:10,136 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@22b88a92.
+2021-06-18 01:44:10,138 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 01:45:40,443 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@697b56b2.
+2021-06-18 01:45:40,448 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-18 01:48:11,973 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@5b982e59.
+2021-06-18 01:48:11,979 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-18 02:02:00,205 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@4ac0ba80.
+2021-06-18 02:02:00,205 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@7d6d0a97.
+2021-06-18 02:02:00,206 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@315c95db.
+2021-06-18 02:02:00,206 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@36626f19.
+2021-06-18 02:02:00,206 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6d7622e5.
+2021-06-18 02:02:00,206 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@6777d061.
+2021-06-18 02:02:00,206 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@72a99ac9.
+2021-06-18 02:02:00,211 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-18 02:02:00,215 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 02:02:00,219 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 02:02:00,220 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 0 channel(s) to the new Selector.
+2021-06-18 02:02:00,232 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 02:02:00,233 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 02:02:00,235 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 02:18:49,361 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:51547 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-18 02:18:49,362 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 9f2890fe-cf93-11eb-bd2f-5c80b6433a73
+2021-06-18 02:18:49,366 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 9f2890fe-cf93-11eb-bd2f-5c80b6433a73
+2021-06-18 02:18:49,366 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 9f2c136f-cf93-11eb-bd2f-5c80b6433a73
+2021-06-18 02:18:49,373 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 9f2c136f-cf93-11eb-bd2f-5c80b6433a73
+2021-06-18 02:19:03,896 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@11f90792.
+2021-06-18 02:19:03,899 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 02:20:35,722 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@5ac4b70d.
+2021-06-18 02:20:35,726 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 02:21:07,641 WARN  [io.netty.channel.nio.NioEventLoop] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@669ea8ff.
+2021-06-18 02:21:07,644 INFO  [io.netty.channel.nio.NioEventLoop] Migrated 1 channel(s) to the new Selector.
+2021-06-18 02:23:58,801 WARN  [org.apache.activemq.artemis.core.client] AMQ212037: Connection failure to /127.0.0.1:57652 has been detected: 远程主机强迫关闭了一个现有的连接。 [code=GENERIC_EXCEPTION]
+2021-06-18 02:23:58,802 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 7f2594f1-cf98-11eb-a52b-5c80b6433a73
+2021-06-18 02:23:58,808 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 7f2594f1-cf98-11eb-a52b-5c80b6433a73
+2021-06-18 02:23:58,808 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session 7f2c4bb2-cf98-11eb-a52b-5c80b6433a73
+2021-06-18 02:23:58,813 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session 7f2c4bb2-cf98-11eb-a52b-5c80b6433a73
+2021-06-18 02:23:58,813 WARN  [org.apache.activemq.artemis.core.server] AMQ222061: Client connection failed, clearing up resources for session b5e1ba58-cf98-11eb-a52b-5c80b6433a73
+2021-06-18 02:23:58,815 WARN  [org.apache.activemq.artemis.core.server] AMQ222107: Cleared up resources for session b5e1ba58-cf98-11eb-a52b-5c80b6433a73
